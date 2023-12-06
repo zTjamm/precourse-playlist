@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+#root {
+    width: 1280px;
+    background: black;
+    margin: 45px auto;
+}
+
+header {
+    padding: 12px 0 12px 64px;
+    background: #1A1A1ACC;
+    height: 48px;
+}
+
+.headerDivEl {
+    width: 110px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerIco {
+    width: 24px;
+    height: 24px;
+}
+
+.headerTitle {
+    color: #F6BD41;
+}
+
+.titleWrapperDiv {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.btnAdd {
+    padding: 7px 36px;
+    width: 165px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #F6BD41;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btnAdd:active{
+    width: 155px;
+    font-size: 15px;
+}
+.dialog{
+    width: 350px;
+    position: absolute;
+    top: 0;
+    left: auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.contentWrapper {
+    color: white;
+    padding: 31px 64px 73px 64px;
+}
+
+.title {
+    margin: 0 0 29px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.searchPanel {
+    display: flex;
+    /*align-items: baseline;*/
+    gap: 5px;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 6px 12px;
+    margin-bottom: 36px;
+    /*color: #969696;*/
+    color: white;
+    background: #3F3F3F;
+    border: 1px solid #3F3F3F;
+    border-radius: 4px;
+}
+
+.sortEl {
+    height: 100%;
+    width: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.songIco {
+    width: 48px;
+    height: 48px;
+}
+
+.songEl {
+    height: 60px;
+    padding: 6px 0 6px 12px;
+    background: #1C1C1C;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.songName {
+    color: #8A8A8A;
+}
+
+.songAudioControls {
+    display: block;
+    height: 24px;
+    margin-top: 9px;
+    background: #1C1C1C;
+}
